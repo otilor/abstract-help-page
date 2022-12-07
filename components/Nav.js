@@ -1,11 +1,3 @@
-/* This example requires Tailwind CSS v2.0+ */
-const navigation = [
-    { name: "Solutions", href: "#" },
-    { name: "Pricing", href: "#" },
-    { name: "Docs", href: "#" },
-    { name: "Company", href: "#" },
-];
-
 export default function Nav() {
     return (
         <header className="bg-black-600">
@@ -65,17 +57,7 @@ export default function Nav() {
                                 </h2>
                             </div>
                         </a>
-                        <div className="hidden ml-10 space-x-8 lg:block">
-                            {navigation.map((link) => (
-                                <a
-                                    key={link.name}
-                                    href={link.href}
-                                    className="text-base font-medium text-white hover:text-indigo-50"
-                                >
-                                    {link.name}
-                                </a>
-                            ))}
-                        </div>
+                        
                     </div>
                     <div className="ml-10 space-x-4">
                         <a
@@ -91,17 +73,6 @@ export default function Nav() {
                             Sign up
                         </a>
                     </div>
-                </div>
-                <div className="py-4 flex flex-wrap justify-center space-x-6 lg:hidden">
-                    {navigation.map((link) => (
-                        <a
-                            key={link.name}
-                            href={link.href}
-                            className="text-base font-medium text-white hover:text-indigo-50"
-                        >
-                            {link.name}
-                        </a>
-                    ))}
                 </div>
             </nav>
         </header>
