@@ -6,7 +6,7 @@ export default function Nav() {
                     <div className="flex items-center">
                         <a href="#">
                             <span className="sr-only">Workflow</span>
-                            <div className="flex">
+                            <div className="flex ml-12">
                                 <svg
                                     className="w-auto h-8"
                                     xmlns="http://www.w3.org/2000/svg"
