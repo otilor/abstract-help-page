@@ -14,7 +14,7 @@ export default function Home() {
 
       <Nav />
       <div className='bg-indigo-100 grid h-56 gap-4 content-center place-items-center'>
-        <h3>How can we help?</h3>
+        <h3 className='text-7xl'>How can we help?</h3>
         <input />
       </div>
       <footer className={styles.footer}>
