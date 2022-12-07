@@ -14,9 +14,9 @@ export default function Nav() {
                     <div className="flex items-center">
                         <a href="#">
                             <span className="sr-only">Workflow</span>
-                            <div className="w-20">
+                            <div>
                                 <svg
-                                    class="abstract-logo logo"
+                                    className="w-auto h-8"
                                     xmlns="http://www.w3.org/2000/svg"
                                     viewBox="0 0 200 51"
                                     preserveAspectRatio="xMinYMid slice"
