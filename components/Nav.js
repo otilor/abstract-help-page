@@ -52,7 +52,7 @@ export default function Nav() {
                                         ></path>
                                     </g>
                                 </svg>
-                                <h2 className="text-2xl ml-3 pl-3 tracking-tight border-l-4 text-white">
+                                <h2 className="text-2xl ml-3 pl-3 tracking-tight border-l-2 text-white">
                                     Help Center
                                 </h2>
                             </div>
