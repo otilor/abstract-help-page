@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
 
       <Nav />
-      <div className='bg-gray-900'>
+      <div className='bg-indigo-100'>
         <h3>How can we help?</h3>
         <input />
       </div>

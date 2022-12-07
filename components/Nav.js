@@ -1,6 +1,6 @@
 export default function Nav() {
     return (
-        <header className="bg-black-600">
+        <header className="bg-black">
             <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" aria-label="Top">
                 <div className="w-full py-6 flex items-center justify-between">
                     <div className="flex items-center">
