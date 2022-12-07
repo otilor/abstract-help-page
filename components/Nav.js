@@ -14,7 +14,7 @@ export default function Nav() {
                     <div className="flex items-center">
                         <a href="#">
                             <span className="sr-only">Workflow</span>
-                            <div>
+                            <div className="flex">
                                 <svg
                                     className="w-auto h-8"
                                     xmlns="http://www.w3.org/2000/svg"
@@ -60,6 +60,9 @@ export default function Nav() {
                                         ></path>
                                     </g>
                                 </svg>
+                                <h2 className="text-2xl ml-3 pl-3 tracking-tight border-l-4 text-white">
+                                    Help Center
+                                </h2>
                             </div>
                         </a>
                         <div className="hidden ml-10 space-x-8 lg:block">
