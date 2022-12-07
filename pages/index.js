@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
 
       <Nav />
-      <div className='bg-indigo-100'>
+      <div className='bg-indigo-100 grid h-56 gap-4 content-center place-items-center'>
         <h3>How can we help?</h3>
         <input />
       </div>
