@@ -62,13 +62,13 @@ export default function Nav() {
                     <div className="ml-10 space-x-4">
                         <a
                             href="#"
-                            className="inline-block bg-black py-3 px-4 border border-transparent border-white rounded-md text-2xl tracking-wide text-white"
+                            className="inline-block bg-black py-2 px-6 border border-transparent border-white rounded-md text-2xl tracking-wide text-white"
                         >
                             Submit a request
                         </a>
                         <a
                             href="#"
-                            className="inline-block bg-indigo-500 py-3 px-4 border border-transparent rounded-md text-2xl tracking-wide text-white hover:bg-opacity-75"
+                            className="inline-block bg-indigo-500 py-2 px-8 border border-transparent rounded-md text-2xl tracking-wide text-white hover:bg-opacity-75"
                         >
                             Sign in
                         </a>
