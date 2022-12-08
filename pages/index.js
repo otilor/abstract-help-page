@@ -1,7 +1,9 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import Nav from '../components/Nav'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import Image from "next/image";
+import Nav from "../components/Nav";
+import styles from "../styles/Home.module.css";
+import { BiArrowBack } from "react-icons/bi";
+import { BiRightArrowAlt } from "react-icons/bi";
 
 export default function Home() {
   return (
@@ -13,10 +15,25 @@ export default function Home() {
       </Head>
 
       <Nav />
-      <div className='bg-indigo-100 grid gap-8 content-center place-items-center'>
-        <h3 className='text-7xl mt-24'>How can we help?</h3>
-        <input className='p-5 w-2/6 border border-black rounded sm:auto mb-24' placeholder='Search'/>
+      <div className="bg-indigo-100 grid gap-8 content-center place-items-center">
+        <h3 className="text-7xl mt-24">How can we help?</h3>
+
+        <div className="mt-1 relative rounded-md shadow-sm mb-24">
+          <input
+            type="text"
+            name="account-number"
+            id="account-number"
+            className="p-5 border border-black pr-1 sm:text-sm rounded-md"
+            placeholder="Search"
+          />
+          <div className="absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none">
+            <BiRightArrowAlt
+              className="h-5 w-5 text-gray-400"
+              aria-hidden="true"
+            />
+          </div>
+        </div>
       </div>
     </div>
-  )
+  );
 }
