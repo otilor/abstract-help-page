@@ -15,7 +15,7 @@ export default function Home() {
       <Nav />
       <div className='bg-indigo-100 grid gap-8 content-center place-items-center'>
         <h3 className='text-7xl mt-24'>How can we help?</h3>
-        <input className='p-5 w-4/6 border border-black rounded sm:auto mb-24' placeholder='Search'/>
+        <input className='p-5 w-2/6 border border-black rounded sm:auto mb-24' placeholder='Search'/>
       </div>
     </div>
   )
