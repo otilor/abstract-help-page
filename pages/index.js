@@ -5,6 +5,7 @@ import styles from "../styles/Home.module.css";
 import { BiArrowBack } from "react-icons/bi";
 import { BiRightArrowAlt } from "react-icons/bi";
 import Feature from "../components/Feature";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -37,6 +38,7 @@ export default function Home() {
       </div>
 
       <Feature />
+      <Footer />
     </div>
   );
 }
